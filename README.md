@@ -1,4 +1,13 @@
-== Install FreeRadius 2.2.1 w/ Docker
+## Install FreeRadius 2.2.1 w/ Docker
 
-Downloads the contents of the scripts directory
-and runs them! Take a peek in there to be thorough.
+### Using This Repo
+
+```
+git clone git@github.com:tomislacker/docker-freeradius.git
+cd docker-freeradius
+docker build -rm -no-cache -t tomislacker/freeradius .
+```
+
+## Roadmap
+### Revised Dockerfile
+One of the things I'm looking to do is move all the calls in scripts/install_freeradius.sh to the Dockerfile
